@@ -475,11 +475,11 @@ const Home = () => {
                     onChange={(e) => setQuoteOrigin(e.target.value)}
                     className="bg-gray-100 p-4 font-bold text-gray-700 outline-none focus:bg-gray-200 transition-colors cursor-pointer"
                   >
-                    <option value="">Origin (West Coast)</option>
-                    <option>CA - California (HQ)</option>
-                    <option>OR - Oregon</option>
-                    <option>WA - Washington</option>
-                    <option>NV - Nevada</option>
+                    <option value="">Origin (South Texas / Border)</option>
+                    <option>TX - Texas (HQ)</option>
+                    <option>NM - New Mexico</option>
+                    <option>AZ - Arizona</option>
+                    <option>CA - California</option>
                   </select>
 
                   <select
@@ -488,10 +488,11 @@ const Home = () => {
                     onChange={(e) => setQuoteDest(e.target.value)}
                     className="bg-gray-100 p-4 font-bold text-gray-700 outline-none focus:bg-gray-200 transition-colors cursor-pointer"
                   >
-                    <option value="">Destination (West / Mountain)</option>
-                    <option>AZ - Arizona</option>
-                    <option>UT - Utah</option>
-                    <option>ID - Idaho</option>
+                    <option value="">Destination (Regional / National)</option>
+                    <option>OK - Oklahoma</option>
+                    <option>LA - Louisiana</option>
+                    <option>FL - Florida</option>
+                    <option>TX - Texas</option>
                   </select>
 
 
